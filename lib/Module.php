@@ -16,10 +16,10 @@ class Module
         $modules = [];
         $modules[] = new \TobiasKrais\D2UHelper\Module('25-1',
             'D2U Business Partner - Business Partner (BS4, deprecated)',
-            1);
+            2);
         $modules[] = new \TobiasKrais\D2UHelper\Module('25-2',
             'D2U Business Partner - Business Partner (BS5)',
-            1);
+            2);
         return $modules;
     }
 }

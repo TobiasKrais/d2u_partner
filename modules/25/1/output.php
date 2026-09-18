@@ -1,4 +1,5 @@
 <?php
+/* d2u_translate: 1:text */
 
 $im_type = '280x200';
 $titel = 'REX_VALUE[1]';

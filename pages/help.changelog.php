@@ -1,4 +1,8 @@
 <h1>Changelog</h1>
+<p>1.1.2-DEV:</p>
+<ul>
+	<li>Neu: Module mit übersetzbarem Textinhalt tragen einen <code>d2u_translate</code>-Marker im Modul-Code. In Verbindung mit d2u_helper (Slice-Übersetzung) erscheint dadurch im Content-Editor an übersetzbaren Slices ein KI-Übersetzen-Button, der die deklarierten Felder aus der Ausgangssprache übersetzt.</li>
+</ul>
 <p>1.1.1:</p>
 <ul>
 	<li>Wartung: Interne CI-Dateien im Verzeichnis <code>.github</code> (GitHub Actions, Dependabot) werden nicht mehr mit dem Installer-Paket ausgeliefert.</li>
