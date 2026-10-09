@@ -30,7 +30,7 @@ if (count($partners) > 0) {
         } elseif (strlen($partner->url) > 7) {
             echo '<a href="'. rex_escape($partner->url) .'" target="_blank" rel="noopener noreferrer">';
         }
-        echo '<img src="index.php?rex_media_type='. rex_escape($im_type) .'&rex_media_file='. rex_escape((string) $partner->picture) .'" alt="'. rex_escape($partner->name) .'">';
+        echo '<img src="'. rex_escape(rex_media_manager::getUrl($im_type, (string) $partner->picture)) .'" alt="'. rex_escape($partner->name) .'">';
         if ($partner->article_id > 0 || strlen($partner->url) > 7) {
             echo '</a>';
         }

@@ -36,7 +36,7 @@ if (count($partners) > 0) {
 
         echo '<div class="col text-center">';
         echo $linkStart;
-        echo '<img src="index.php?rex_media_type='. rex_escape($imageType) .'&rex_media_file='. rex_escape((string) $partner->picture) .'" class="img-fluid" alt="'. rex_escape($partner->name) .'">';
+        echo '<img src="'. rex_escape(rex_media_manager::getUrl($imageType, (string) $partner->picture)) .'" class="img-fluid" alt="'. rex_escape($partner->name) .'">';
         echo $linkEnd;
         echo '</div>';
     }
